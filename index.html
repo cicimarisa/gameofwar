@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="d-flex">
+    <div class="d-flex">
+        <button id="new-deck" class="new-deck-btn">New Deck, Please!</button>
+        <p id="remaining-cards" class="remaining-cards"></p>
+    </div>
+    <div class="cards-container">
+        <h2 id="header">Game of War</h2>
+        <div id="cards" class="cards d-flex">
+            <div>
+                <p id="computer-msg">Computer : <span id="computer-score">0</span></p>
+                <div class="card-slot"></div>
+            </div>
+            <div>
+                <p id="me-msg">Me : <span id="my-score">0</span></p>
+                <div class="card-slot"></div>
+            </div>
+        </div>
+    </div>
+    <button id="draw-cards" class="draw-btn" disabled>Shuffle Deck</button>
+    <script src="index.js"></script>
+</body>
+
+</html>
