@@ -6,7 +6,6 @@ body {
     background: url("img/table.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
 }
 
 .d-flex {
@@ -73,6 +72,9 @@ div.card-slot {
     .cards.d-flex {
         flex-direction: row;
         justify-content: space-between;
+    }
+    body {
+        height: 100vh;
     }
 }
 div .remaining-cards{
